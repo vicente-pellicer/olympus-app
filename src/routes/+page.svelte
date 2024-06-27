@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Draft from '$lib/Draft.svelte';
+  import Maps from '$lib/Maps.svelte';
+  import Queue from '$lib/Queue.svelte';
+</script>
+
+<Draft />
+<Maps />
+<Queue />
